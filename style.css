@@ -1,0 +1,19 @@
+.main-bg {
+	background: linear-gradient(#FF6600 40%, white, #FF6600 40%);
+}
+
+.bg-main {
+	background: 
+
+	linear-gradient(
+		rgba(255, 255, 255, 0.7),
+		rgba(255, 255, 255, 0.7)
+	),
+
+	url("./image1.png")
+	;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: top;
+}

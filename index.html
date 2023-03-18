@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Shipping calculator</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body class="vw-100">
+	<header class="main-bg p-1">
+		<h6 class="mx-3 my-1 text-light">Pash pash Shipping</h5>
+	</header>
+	<main class="container-fluid p-5 bg-main">
+		<div class="row my-5">
+			<div class="col-12 col-md-6 my-5 mx-auto bg-white p-5 rounded">
+				<h1>We Always Deliver</h1>
+				<form id="shipping-calc">
+					<div class="w-100 p-5 main-bg">
+						<div class="form-inline input-group my-2">
+							<label for="shipTo" class="col-3 col-md-2 input-group-text">Ship to:</label>
+							<select name="shipTo" id="shipTo" class="form-control col-9 col-md-10">
+								<option value="" selected disabled> </option>
+								<option value="local">local</option>
+								<option value="overseas">overseas</option>
+							</select>
+						</div>
+						<div class="form-inline input-group-group">
+							<label for="unit" class="col-3 col-md-2 text-left input-group-text">kg</label><input type="number" name="unit" id="unit" class="form-control col-6 col-md-7">
+							<button type="submit" class="btn btn-success col-3 col-md-3">Calculate</button>
+						</div>
+						<div class="form-inline input-group mt-2">
+							<label class="input-group-text col-12 col-md-4 bg-success text-light">Estimated Shipping fee:</label><label class="input-group-text col-12 col-md-8 bg-light" id="result"></label>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</main>
+	<footer class="main-bg">
+		<div class="container py-4">
+			<div class="row">
+				<div class="col-12 text-right">
+					<p class="text-light">By: John Joseph Obligado<br>
+						<a href="https://obligado86.github.io/project-portfolio/#profile" target="_blank" class="text-light"><i class="fas fa-coffee"> </i> Hire a Developer</a><br>
+						<a href="mailto:obligado86@yahoo.com" class="text-light"><i class="fas fa-comment-alt"> </i> Send an email</a><br>
+						<a href="https://www.linkedin.com/in/john-joseph-obligado-64a470153/" target="_blank" class="text-light"><i class="fab fa-linkedin"> </i> Linkedin</a><br>
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="./index.js"></script>
+</body>
+</html>
