@@ -31,7 +31,7 @@ shippingForm.addEventListener('submit', event => {
 		output = `&#8369 ${result}`
 		break;
 	case false:
-		output = "maximum of 10kl per package only"
+		output = "maximum of 10kl only"
 	default:
 		result = 0;
 	}
